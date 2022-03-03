@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local("Source Sans Pro"),
+   url(~assets/fonts/SourceSansPro-Bold.woff2) format("woff2"),
+   url(~assets/fonts/SourceSansPro-Bold.woff) format("woff");
+   font-weight: bold;
+   font-style: normal;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local("Source Sans Pro"),
+   url(~assets/fonts/SourceSansPro-Regular.woff2) format("woff2"),
+   url(~assets/fonts/SourceSansPro-Regular.woff) format("woff");
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"),
+   url(~assets/fonts/Inter-Bold.woff2) format("woff2"),
+   url(~assets/fonts/Inter-Bold.woff) format("woff");
+   font-weight: bold;
+   font-style: normal;
+}
+
+
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+}

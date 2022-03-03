@@ -102,7 +102,7 @@ export default {
     addCard() {
       if (this.new_title && this.new_link && this.new_price) {
         this.todoList.unshift({
-          id: this.todoList.length,
+          id: this.todoList.length + 1,
           title: this.new_title,
           descr: this.new_descr,
           link: this.new_link,
